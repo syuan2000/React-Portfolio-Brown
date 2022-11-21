@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import {useState} from 'react';
 import './App.css';
+import CreateProduct from './CreateProductComponent/CreateProduct';
+import ProductList from './ProductList/ProductList';
 
 function App() {
+
+  // just experiencing how to pass data from buttom up
+  function getForm(product){
+    console.log(product)
+  } 
+
+  let [newProduct, setNewProduct] = useState(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CreateProduct createProduct={getForm}></CreateProduct>
+      <ProductList newProduct={newProduct}></ProductList>
     </div>
   );
 }
