@@ -5,9 +5,9 @@
 }
 
 .about__me{
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
+    width: 120%;
+    /* aspect-ratio: 1/1;
+    border-radius: 2rem; */
 }
 .about__cards{
     display: grid;
@@ -15,7 +15,7 @@
     gap: 1.5rem;
 }
 .about__card{
-    background: rgb(202 194 184);
+    background: var(--color-primary-vibrant);
     border: 3px solid transparent;
     border-radius: 1rem;
     padding: 2rem;

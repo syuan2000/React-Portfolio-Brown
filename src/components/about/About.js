@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutme from '../../assets/images/mizzouProfile.png'
+import aboutme from '../../assets/images/designer.png'
 import {TfiFolder} from 'react-icons/tfi';
 import {MdOutlineComputer} from 'react-icons/md';
 import {IoSchoolOutline} from 'react-icons/io5'

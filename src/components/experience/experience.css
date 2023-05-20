@@ -5,7 +5,7 @@
 }
 
 .experience__container > div{
-    background: rgb(202 194 184);
+    background: var(--color-primary-vibrant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 3px solid transparent;
