@@ -1,4 +1,3 @@
-//https://www.youtube.com/watch?v=G-Cr00UYokU
 import React, {useState} from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';

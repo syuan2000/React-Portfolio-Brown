@@ -9,7 +9,7 @@ const Portfolio = () => {
       image: foodDiary,
       title: "Digital Food Photo Diary",
       github: "https://github.com/syuan2000",
-      demo: "https://github.com/syuan2000"
+      demo: "https://notion-diary-3b39d.web.app"
     },
     {
       id: 2,
