@@ -2,8 +2,9 @@ import React from 'react'
 import aboutme from '../../assets/images/designer.png'
 import {TfiFolder} from 'react-icons/tfi';
 import {MdOutlineComputer} from 'react-icons/md';
-import {IoSchoolOutline} from 'react-icons/io5'
-
+import {IoSchoolOutline} from 'react-icons/io5';
+import TrackVisibility from 'react-on-screen';
+import 'animate.css'
 import './about.css';
 
 const About = () => {
@@ -15,7 +16,11 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={aboutme} alt="About Image" />
+            <TrackVisibility>
+              {({ isVisible }) =>
+                  <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={aboutme} alt="About Image"/>
+              }
+              </TrackVisibility>
           </div>
           
         </div>
@@ -38,7 +43,11 @@ const About = () => {
               </article>
             </div>
             <p>
-              leifjoij pweoifjpaowejfoawjef.f ejwifoa jfiewofj ofi.
+              Hello there I'm Eva Li!  As an entry-level software engineer, <br />
+              I am passionate about building robust and efficient software solutions. <br />
+              With a strong foundation in Python, I am adept at leveraging its extensive libraries and frameworks to develop innovative applications. <br />
+              I also have a growing expertise in front-end development, specifically in React and its framework. <br />
+              With a curious mindset and a drive for continuous learning, I am excited to tackle new challenges and contribute to cutting-edge projects in the software development industry.
             </p>
             <a href="contact" className='btn btn-primary'>Let's Connect!</a>
         </div>

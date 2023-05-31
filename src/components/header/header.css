@@ -24,7 +24,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .header_socials::after{
@@ -35,8 +35,8 @@ header {
 }
 
 .me{
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 23rem;
+    background: linear-gradient(var(--color-primary), #e7ddd6b5);
+    width: 25rem;
     height: 29rem;
     position: absolute;
     left: calc(50% - 11rem);
