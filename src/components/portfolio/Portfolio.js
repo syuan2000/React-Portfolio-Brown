@@ -1,5 +1,6 @@
 import React from 'react';
 import foodDiary from '../../assets/images/food_diary.jpg';
+import journal from '../../assets/images/journal.png';
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -8,15 +9,15 @@ const Portfolio = () => {
       id: 1,
       image: foodDiary,
       title: "Digital Food Photo Diary",
-      github: "https://github.com/syuan2000",
+      github: "https://github.com/syuan2000/notion-diary",
       demo: "https://notion-diary-3b39d.web.app"
     },
     {
       id: 2,
-      image: foodDiary,
-      title: "Digital Food Photo Diary",
-      github: "https://github.com/syuan2000",
-      demo: "https://github.com/syuan2000"
+      image: journal,
+      title: "Digital Calander Journal",
+      github: "https://github.com/syuan2000/2020-Calendar.io",
+      demo: "https://github.com/syuan2000/2020-Calendar.io"
     },
   ]
   return (
@@ -34,8 +35,8 @@ const Portfolio = () => {
                 </div>  
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn'>Github</a>
-                  <a href={demo} className='btn btn-primary'>Live Demo</a>
+                  <a href={github} className='btn' target="_blank" rel="noopener noreferrer" >Github</a>
+                  <a href={demo} className='btn btn-primary' target="_blank" rel="noopener noreferrer" >Live Demo</a>
                 </div>
               </article>
             )
