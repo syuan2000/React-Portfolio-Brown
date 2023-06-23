@@ -1,6 +1,7 @@
 import React from 'react';
 import foodDiary from '../../assets/images/food_diary.jpg';
 import journal from '../../assets/images/journal.png';
+import jobSearch from '../../assets/images/job_search.png'
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -18,6 +19,13 @@ const Portfolio = () => {
       title: "Digital Calander Journal",
       github: "https://github.com/syuan2000/2020-Calendar.io",
       demo: "https://github.com/syuan2000/2020-Calendar.io"
+    },
+    {
+      id: 3,
+      image: jobSearch,
+      title: "React Native Job Search",
+      github: "https://github.com/syuan2000/native",
+      demo: ""
     },
   ]
   return (
