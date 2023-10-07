@@ -49,7 +49,7 @@ const About = () => {
               I also have a growing expertise in front-end development, specifically in React and its framework. <br />
               With a curious mindset and a drive for continuous learning, I am excited to tackle new challenges and contribute to cutting-edge projects in the software development industry.
             </p>
-            <a href="#contact" className='btn btn-primary'>Let's Connect!</a>
+            <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
       </div>
     </section>
