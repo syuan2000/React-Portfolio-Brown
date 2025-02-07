@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/files/Wei_Syuan_Li_resume_2023.pdf';
+import resume from '../../assets/files/2025_resume.pdf';
 
 const CTA = () => {
   return (
