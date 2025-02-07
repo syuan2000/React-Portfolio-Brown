@@ -39,7 +39,7 @@ const About = () => {
               <article className='about__card'>
                 <TfiFolder className='about__icon'/>
                 <h5>Projects</h5>
-                <small>1 Year Software Engineer Working </small>
+                <small>React Web Application </small>
               </article>
             </div>
             <p>
