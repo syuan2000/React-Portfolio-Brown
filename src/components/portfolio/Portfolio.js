@@ -11,7 +11,7 @@ const Portfolio = () => {
       image: stickyNote,
       title: "Sticky Note App",
       github: "https://github.com/syuan2000/sticky-spark-notes-flow",
-      demo: "sticky-notes-theta-one.vercel.app"
+      demo: "https://sticky-notes-theta-one.vercel.app"
     },
     {
       id: 2,
