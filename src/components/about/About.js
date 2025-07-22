@@ -43,11 +43,12 @@ const About = () => {
               </article>
             </div>
             <p>
-              Hello there I'm Eva Li!  As an entry-level software engineer, <br />
-              I am passionate about building robust and efficient software solutions. <br />
-              With a strong foundation in Python, I am adept at leveraging its extensive libraries and frameworks to develop innovative applications. <br />
-              I also have a growing expertise in front-end development, specifically in React and its framework. <br />
-              With a curious mindset and a drive for continuous learning, I am excited to tackle new challenges and contribute to cutting-edge projects in the software development industry.
+              Hi, I'm Eva Li!
+        I'm a software engineer who loves building tools that are both helpful and enjoyable to use.<br />
+        I have a solid background in Python and enjoy using it to bring ideas to life <br />
+          — whether it’s automating something or building smart backend systems.
+        On the front end, I’m diving deeper into React and love the process of turning designs into smooth, user-friendly experiences. <br />
+        I’m always curious, eager to learn, and excited to work on projects that make a real difference for people (including me :)
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
