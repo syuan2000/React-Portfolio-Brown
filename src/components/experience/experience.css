@@ -35,14 +35,16 @@
     gap: 1rem;
 }
 .experience__details.aws {
-  flex: 1 1 100%;
+  grid-column: 1 / -1; 
+  display: flex;
+  gap: 1rem;
   align-items: flex-start;
 }
 .experience__details.aws p {
   margin: 0.2rem 0 0;
   font-size: 0.85rem;
-  color: var(--light-color); /* Optional if you want it slightly toned down */
-  white-space: normal; /* Ensures it wraps */
+  color: var(--light-color);
+  white-space: normal; 
 }
 
 .experience__details_icon{
