@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="contact__options">
           <div className="contact__option">
           <HiOutlineMail className="contact__icon"/>
-            <h4> daisylee890901@gmail.com</h4>
+            <h4> evali892000@gmail.com</h4>
           </div>
           <div className="contact__option">
           <HiOutlinePhone className="contact__icon"/>
