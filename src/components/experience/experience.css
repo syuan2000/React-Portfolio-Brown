@@ -38,6 +38,12 @@
   flex: 1 1 100%;
   align-items: flex-start;
 }
+.experience__details.aws p {
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  color: var(--light-color); /* Optional if you want it slightly toned down */
+  white-space: normal; /* Ensures it wraps */
+}
 
 .experience__details_icon{
     margin-top: 6px;
