@@ -65,7 +65,7 @@ const Experience = () => {
                 <h4>C#</h4>
               </div>
             </article>
-            <article className="experience__details">
+            <article className="experience__details aws">
               <BsPatchCheckFill className='experience__details_icon'/>
               <div>
                 <h4>AWS (Lambda, S3, EC2, Load Balancer)</h4>
