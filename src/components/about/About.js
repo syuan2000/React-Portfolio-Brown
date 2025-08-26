@@ -34,7 +34,7 @@ const About = () => {
               <article className='about__card'>
                 <MdOutlineComputer className='about__icon'/>
                 <h5>Experience</h5>
-                <small>1 Year Software Engineer Working </small>
+                <small>2 Year Software Engineer Working </small>
               </article>
               <article className='about__card'>
                 <TfiFolder className='about__icon'/>
@@ -43,12 +43,10 @@ const About = () => {
               </article>
             </div>
             <p>
-              Hi, I'm Eva Li!
-        I'm a software engineer who loves building tools that are both helpful and enjoyable to use.<br />
-        I have a solid background in Python and enjoy using it to bring ideas to life <br />
-          — whether it’s automating something or building smart backend systems.
-        On the front end, I’m diving deeper into React and love the process of turning designs into smooth, user-friendly experiences. <br />
-        I’m always curious, eager to learn, and excited to work on projects that make a real difference for people (including me :)
+        Hi, I'm Eva Li! I'm a full-stack software engineer with experience building scalable systems end-to-end, but what I really enjoy most is shaping the client experience.
+  I love using React to turn ideas and designs into intuitive, user-centered products that feel smooth and enjoyable to use.
+On the backend, I’ve worked with Python, .NET, and AWS to design APIs, streamline data flows, and optimize performance. <br />
+I’m always eager to grow and learn, and excited about products that combine creative thoughtful engineering with meaningful impact : )
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
