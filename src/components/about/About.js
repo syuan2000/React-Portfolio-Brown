@@ -44,7 +44,7 @@ const About = () => {
             </div>
             <p>
         Hi, I'm Eva Li! I'm a full-stack software engineer with experience building scalable systems end-to-end, but what I really enjoy most is shaping the client experience.
-  I love using React to turn ideas and designs into intuitive, user-centered products that feel smooth and enjoyable to use.
+  I love using React to turn ideas and designs into intuitive, user-centered products that feel smooth and enjoyable to use. <br />
 On the backend, I’ve worked with Python, .NET, and AWS to design APIs, streamline data flows, and optimize performance. <br />
 I’m always eager to grow and learn, and excited about products that combine creative thoughtful engineering with meaningful impact : )
             </p>
