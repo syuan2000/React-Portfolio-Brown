@@ -1,80 +1,97 @@
-.experience__container{
+.experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.experience__container > div{
+.experience__container>div {
     background: var(--color-primary-vibrant);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
     border: 3px solid transparent;
     transition: var(--transition);
 }
 
-.experience__container > div:hover{
+.experience__container>div:hover {
     background: transparent;
     border-color: rgb(202 194 184);
     cursor: default;
 }
 
-.experience__container > div h3{
+.experience__container>div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: rgb(70, 46, 17);
 }
 
-.experience__content{
+.experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
 
-.experience__details{
+.experience__details {
     display: flex;
     gap: 1rem;
 }
-.experience__details.aws {
-  grid-column: 1 / -1; 
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-.experience__details.aws p {
-  margin: 0.2rem 0 0;
-  font-size: 0.85rem;
-  color: var(--light-color);
-  white-space: normal; 
+
+.experience__icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
 }
 
-.experience__details_icon{
+.experience__details.aws {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.experience__details.aws p {
+    margin: 0.2rem 0 0;
+    font-size: 0.85rem;
+    color: var(--light-color);
+    white-space: normal;
+}
+
+.experience__details_icon {
     margin-top: 6px;
     color: var(--color-primary);
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICE) */
-@media screen and (max-width: 1024px){
-    .experience__container{
+@media screen and (max-width: 1024px) {
+    .experience__container {
         grid-template-columns: 1fr;
 
     }
-    .experience__container > div{
-        width:80%;
+
+    .experience__container>div {
+        width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
-    .experience__content{
+
+    .experience__content {
         padding: 1rem;
     }
 }
 
 /* MEDIA QUERIES (SMALL DEVICE) */
-@media screen and (max-width: 600px){
-    .experience__container{
+@media screen and (max-width: 600px) {
+    .experience__container {
         gap: 1rem;
 
     }
-    .experience__container > div{
+
+    .experience__container>div {
         padding: 2rem 1rem;
     }
 }

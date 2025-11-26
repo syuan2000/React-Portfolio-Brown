@@ -1,17 +1,17 @@
-.contact__container{
+.contact__container {
     width: 70%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 12%;
 }
 
-.contact__option{
+.contact__option {
     display: flex;
     align-items: center;
     margin-bottom: 1.2rem;
 }
 
-.contact__icon{
+.contact__icon {
     background: white;
     padding: 0.8rem;
     border-radius: 50%;
@@ -21,13 +21,14 @@
 
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-input, textarea{
+input,
+textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
@@ -36,16 +37,16 @@ input, textarea{
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICE) */
-@media screen and (max-width: 1024px){
-    .contact__container{
+@media screen and (max-width: 1024px) {
+    .contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 }
 
 /* MEDIA QUERIES (SMALL DEVICE) */
-@media screen and (max-width: 600px){
-    .contact__container{
+@media screen and (max-width: 600px) {
+    .contact__container {
         width: var(--container-width-sm);
     }
 }

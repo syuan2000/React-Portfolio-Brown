@@ -1,32 +1,43 @@
-.about__container{
+.about__container {
     display: grid;
     grid-template-columns: 25% 60%;
     gap: 15%;
 }
 
-.about__me{
+.about__me {
     width: 130%;
     /* aspect-ratio: 1/1;
     border-radius: 2rem; */
 }
-.about__me-image{
+
+.about__me-image {
     width: 80%;
 }
-.about__cards{
+
+.about__me-image .about__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    mix-blend-mode: multiply;
+}
+
+.about__cards {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.about__card{
+
+.about__card {
     background: var(--color-primary-vibrant);
     border: 3px solid transparent;
-    border-radius: 1rem;
+    border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
 }
 
-.about__card:hover{
+.about__card:hover {
     background: transparent;
     border-color: rgb(202 194 184);
     cursor: default;
@@ -38,52 +49,58 @@
     margin-bottom: 0.2rem;
 }
 
-.about__card h5{
+.about__card h5 {
     font-size: 1rem;
 }
 
-.about__card small{
+.about__card small {
     font-size: 0.8rem;
     color: var(--color-light);
 }
 
-.about__content p{
+.about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICE) */
-@media screen and (max-width: 1024px){
-    .about__container{
+@media screen and (max-width: 1024px) {
+    .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
-    .about__me{
-        width:50%;
+
+    .about__me {
+        width: 50%;
         margin: 2rem auto 4rem;
     }
-    .about__content p{
+
+    .about__content p {
         margin: 1rem 0 1.5rem;
     }
-    .about__content{
+
+    .about__content {
         text-align: center;
     }
 }
 
 /* MEDIA QUERIES (SMALL DEVICE) */
-@media screen and (max-width: 600px){
-    .about__me{
-        width:65%;
+@media screen and (max-width: 600px) {
+    .about__me {
+        width: 65%;
         margin: 0 auto 3rem;
     }
-    .about__cards{
+
+    .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-    .about__content{
+
+    .about__content {
         text-align: center;
     }
-    .about__content p{
+
+    .about__content p {
         margin: 1.5rem 0;
     }
 }

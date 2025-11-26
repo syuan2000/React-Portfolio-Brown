@@ -1,4 +1,4 @@
-footer{
+footer {
     background: var(--color-primary);
     padding: 3rem 0;
     text-align: center;
@@ -6,11 +6,11 @@ footer{
     margin-top: 7rem;
 }
 
-footer a{
+footer a {
     color: var(--color-bg);
 }
 
-.links{
+.links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -18,7 +18,7 @@ footer a{
     margin: 0 auto 1rem;
 }
 
-.footer_socials{
+.footer_socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -27,9 +27,9 @@ footer a{
 }
 
 /* MEDIA QUERIES (SMALL DEVICE) */
-@media screen and (max-width: 600px){
-    .footer_socials{
+@media screen and (max-width: 600px) {
+    .footer_socials {
         margin-bottom: 2.5rem;
     }
-    
+
 }

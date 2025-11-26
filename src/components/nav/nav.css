@@ -1,4 +1,4 @@
-nav{
+nav {
     background: rgb(221 216 209 / 48%);
     width: max-content;
     display: block;
@@ -13,7 +13,7 @@ nav{
     border-radius: 3rem;
 }
 
-nav a{
+nav a {
     background: transparent;
     padding: .8rem;
     border-radius: 50%;
@@ -23,7 +23,7 @@ nav a{
 }
 
 
-nav a.active{
+nav a.active {
     background: var(--color-bg);
     color: white;
 }
