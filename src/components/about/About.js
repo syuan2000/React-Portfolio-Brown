@@ -11,13 +11,20 @@ const VideoPlayer = ({ isVisible }) => {
   const videoRef = React.useRef(null);
   
   React.useEffect(() => {
-    if (isVisible && videoRef.current) {
-      videoRef.current.currentTime = 0;
-      videoRef.current.play().catch(error => console.log("Autoplay prevented:", error));
-    } else if (!isVisible && videoRef.current) {
-      videoRef.current.pause();
-      videoRef.current.currentTime = 0;
-    }
+    const playVideo = async () => {
+      if (isVisible && videoRef.current) {
+        try {
+          videoRef.current.currentTime = 0;
+          await videoRef.current.play();
+        } catch (error) {
+          console.log("Autoplay prevented:", error);
+        }
+      } else if (!isVisible && videoRef.current) {
+        videoRef.current.pause();
+        videoRef.current.currentTime = 0;
+      }
+    };
+    playVideo();
   }, [isVisible]);
   
   return (
@@ -27,7 +34,9 @@ const VideoPlayer = ({ isVisible }) => {
       height="100%"
       muted
       playsInline
+      preload="auto"
       className='about__image'
+      poster={aboutVideoPoster} // Optional: add a poster image
     >
       <source src={aboutVideo} type="video/webm" />
       <source src={aboutVideoMp4} type="video/mp4" />
@@ -35,7 +44,6 @@ const VideoPlayer = ({ isVisible }) => {
     </video>
   );
 };
-
 const About = () => {
   return (
     <section id="about">
