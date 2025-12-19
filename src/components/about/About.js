@@ -36,7 +36,6 @@ const VideoPlayer = ({ isVisible }) => {
       playsInline
       preload="auto"
       className='about__image'
-      poster={aboutVideoPoster} // Optional: add a poster image
     >
       <source src={aboutVideo} type="video/webm" />
       <source src={aboutVideoMp4} type="video/mp4" />
